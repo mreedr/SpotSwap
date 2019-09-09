@@ -1,0 +1,1 @@
+curl --dump-header - -H "Content-Type: application/json" -X POST --data '{"longitude": 234, "latitude": 34543, "slug": "another", "title": "Another Post", "user": "/api/v1/auth/user/1/"}' http://localhost:8000/api/v1/entry/
